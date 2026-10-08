@@ -273,6 +273,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   padding: 64px 12px 0;
+  justify-content: center;
 }
 
 /* ANIME CARDS */
