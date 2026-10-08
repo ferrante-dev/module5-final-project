@@ -355,6 +355,7 @@ nav {
   color: #777;
   font-size: 14px;
   line-height: 1.5;
+  /* Neat styling trick to set default number of lines */
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
