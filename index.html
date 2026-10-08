@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radar | Browse and Stream Anime</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/69af530526.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="anime.js" defer></script>
+  </head>
+  <body>
+    <section id="landing">
+      <nav>
+        <div class="nav__container">
+          <a href="#" class="nav__logo">
+            <img
+              class="logo"
+              src="https://4nite.site/images/fortnite/BID_A_056_StaminaFemale_icon.webp"
+              alt="Radar Logo"
+            />
+            <span class="nav__logo--title">Radar</span>
+          </a>
+          <ul class="nav__links">
+            <li>
+              <a href="#" class="nav__link">Home</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link">Browse</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link nav__link--primary">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <header class="anime__header">
+        <div class="anime__header--container">
+          <h1 class="anime__header--title">Browse Anime</h1>
+          <div class="anime__search">
+            <input
+              class="anime__search--input"
+              type="text"
+              placeholder="Search by Title, Genre or Keyword"
+            />
+            <button class="anime__search--btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="anime__results--header">
+              <h2 class="anime__results--title">Search Results:</h2>
+              <div class="anime__filter">
+                <h3 class="anime__filter--title">
+                  Rating: <span class="orange">0.0 to 10</span>
+                </h3>
+                <input
+                  class="anime__filter--range"
+                  type="range"
+                  min="0"
+                  max="10"
+                  value="0"
+                  step="0.1"
+                />
+                <div class="anime__filter--values">
+                  <span>0</span>
+                  <span>10</span>
+                </div>
+              </div>
+            </div>
+            <div class="anime">
+              <i class="fa-solid fa-yin-yang anime__loading--spinner"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
